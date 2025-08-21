@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seed/seed.js",
+    "test": "jest",
+    "seed:products": "node seed/seed.js",
+    "seed:users": "node seed/seedUsers.js"
+  }
+}

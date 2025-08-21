@@ -1,0 +1,356 @@
+[
+  {
+    "name": "iPhone 16 Pro Max",
+    "slug": "iphone-16-pro-max",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=400&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?q=80&w=400&auto=format&fit=crop"
+    ],
+    "brand": "Apple",
+    "category": "Electronics",
+    "description": "The most advanced iPhone ever with A18 Pro chip, titanium design, and revolutionary camera system. Experience unparalleled performance with all-day battery life.",
+    "price": 1299.99,
+    "originalPrice": 1399.99,
+    "countInStock": 25,
+    "rating": 4.9,
+    "numReviews": 347,
+    "featured": true,
+    "tags": ["bestseller", "premium", "new", "flagship"],
+    "specs": {
+      "Display": "6.9-inch Super Retina XDR with ProMotion",
+      "Chip": "A18 Pro",
+      "Storage": "256GB",
+      "Camera": "48MP Fusion Camera System",
+      "Battery": "Up to 33 hours video playback",
+      "Material": "Grade 5 Titanium"
+    },
+    "colors": [
+      "Natural Titanium",
+      "Blue Titanium",
+      "White Titanium",
+      "Black Titanium"
+    ],
+    "warranty": "1 Year Limited Warranty"
+  },
+  {
+    "name": "Samsung Galaxy S25 Ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=400&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=400&auto=format&fit=crop"
+    ],
+    "brand": "Samsung",
+    "category": "Electronics",
+    "description": "Ultimate flagship smartphone with integrated S Pen, 200MP camera system, and Galaxy AI. Perfect for productivity and creative professionals.",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "countInStock": 30,
+    "rating": 4.8,
+    "numReviews": 289,
+    "featured": true,
+    "tags": ["popular", "s-pen", "camera", "ai"],
+    "specs": {
+      "Display": "6.8-inch Dynamic AMOLED 2X 120Hz",
+      "Processor": "Snapdragon 8 Gen 4",
+      "Storage": "512GB",
+      "Camera": "200MP Main + 50MP Periscope Telephoto",
+      "Battery": "5000mAh with 45W SuperFast Charging",
+      "S Pen": "Built-in with AI features"
+    },
+    "colors": [
+      "Titanium Black",
+      "Titanium Gray",
+      "Titanium Violet",
+      "Titanium Yellow"
+    ],
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "MacBook Pro 16-inch M4 Max",
+    "slug": "macbook-pro-16-inch-m4-max",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=400&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=400&auto=format&fit=crop"
+    ],
+    "brand": "Apple",
+    "category": "Electronics",
+    "description": "Revolutionary performance with M4 Max chip. The most powerful MacBook Pro ever created for professionals who demand excellence.",
+    "price": 2999.99,
+    "originalPrice": 3199.99,
+    "countInStock": 10,
+    "rating": 4.9,
+    "numReviews": 156,
+    "featured": true,
+    "tags": ["professional", "m4-chip", "premium", "creator"],
+    "specs": {
+      "Chip": "Apple M4 Max 16-core CPU, 40-core GPU",
+      "Display": "16.2-inch Liquid Retina XDR",
+      "Memory": "36GB Unified Memory",
+      "Storage": "1TB SSD",
+      "Battery": "Up to 24 hours",
+      "Ports": "3x Thunderbolt 5, HDMI, MagSafe 3"
+    },
+    "colors": ["Space Black", "Silver"],
+    "warranty": "1 Year Limited Warranty + AppleCare eligible"
+  },
+  {
+    "name": "Sony WH-1000XM6 Headphones",
+    "slug": "sony-wh-1000xm6-headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=400&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=400&auto=format&fit=crop"
+    ],
+    "brand": "Sony",
+    "category": "Electronics",
+    "description": "Next-generation noise canceling with AI-powered sound adaptation. 40-hour battery life and premium comfort for audiophiles.",
+    "price": 399.99,
+    "originalPrice": 449.99,
+    "countInStock": 45,
+    "rating": 4.8,
+    "numReviews": 542,
+    "featured": false,
+    "tags": ["audio", "noise-canceling", "wireless", "premium"],
+    "specs": {
+      "Noise Canceling": "V2 Processor with Dual Noise Sensor",
+      "Battery": "40 hours with ANC",
+      "Quick Charge": "3 min = 3 hours playbook",
+      "Driver": "40mm with LDAC support",
+      "Frequency Response": "4 Hz-40,000 Hz",
+      "Weight": "254g"
+    },
+    "colors": ["Black", "Silver", "Blue"],
+    "warranty": "1 Year International Warranty"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5090",
+    "slug": "nvidia-geforce-rtx-5090",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=400&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1562976540-262e9b2c5190?q=80&w=400&auto=format&fit=crop"
+    ],
+    "brand": "NVIDIA",
+    "category": "Electronics",
+    "description": "Ultimate gaming graphics card with Ada Lovelace architecture. Experience 4K gaming at maximum settings with ray tracing and DLSS 4.0.",
+    "price": 1999.99,
+    "originalPrice": 2199.99,
+    "countInStock": 8,
+    "rating": 4.9,
+    "numReviews": 89,
+    "featured": true,
+    "tags": ["gaming", "rtx", "4k", "ray-tracing"],
+    "specs": {
+      "CUDA Cores": "16384",
+      "RT Cores": "128 3rd Gen",
+      "Tensor Cores": "512 4th Gen",
+      "Base Clock": "2230 MHz",
+      "Memory": "24GB GDDR6X",
+      "Memory Interface": "384-bit"
+    },
+    "colors": ["Black"],
+    "warranty": "3 Year Limited Warranty"
+  },
+  {
+    "name": "SoundSphere Pro Headphones",
+    "slug": "soundsphere-pro-headphones",
+    "image": "/images/headphones-1.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Electronics",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 51.99,
+    "countInStock": 50,
+    "rating": 4.1,
+    "numReviews": 12,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 3",
+    "slug": "wireless-headphones-3",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Clothing",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 52.99,
+    "countInStock": 50,
+    "rating": 4.4,
+    "numReviews": 13,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 4",
+    "slug": "wireless-headphones-4",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Clothing",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 53.99,
+    "countInStock": 50,
+    "rating": 4.7,
+    "numReviews": 14,
+    "featured": true,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 5",
+    "slug": "wireless-headphones-5",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Clothing",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 54.99,
+    "countInStock": 50,
+    "rating": 3.5,
+    "numReviews": 15,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 6",
+    "slug": "wireless-headphones-6",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Accessories",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 55.99,
+    "countInStock": 50,
+    "rating": 3.8,
+    "numReviews": 16,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 7",
+    "slug": "wireless-headphones-7",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Electronics",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 56.99,
+    "countInStock": 50,
+    "rating": 4.1,
+    "numReviews": 17,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 8",
+    "slug": "wireless-headphones-8",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Accessories",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 57.99,
+    "countInStock": 50,
+    "rating": 4.4,
+    "numReviews": 18,
+    "featured": true,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 9",
+    "slug": "wireless-headphones-9",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Accessories",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 58.99,
+    "countInStock": 50,
+    "rating": 4.7,
+    "numReviews": 19,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 10",
+    "slug": "wireless-headphones-10",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Accessories",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 59.99,
+    "countInStock": 50,
+    "rating": 3.5,
+    "numReviews": 20,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 11",
+    "slug": "wireless-headphones-11",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Electronics",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 60.99,
+    "countInStock": 50,
+    "rating": 3.8,
+    "numReviews": 21,
+    "featured": false,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  },
+  {
+    "name": "Wireless Headphones 12",
+    "slug": "wireless-headphones-12",
+    "image": "/images/headphones.jpg",
+    "images": ["/images/headphones-1.jpg", "/images/headphones-2.jpg"],
+    "brand": "SoundSphere",
+    "category": "Clothing",
+    "description": "Immersive sound with noise cancellation.",
+    "price": 61.99,
+    "countInStock": 50,
+    "rating": 4.1,
+    "numReviews": 22,
+    "featured": true,
+    "specs": {
+      "Bluetooth": "5.3",
+      "ANC": "Yes"
+    }
+  }
+]
