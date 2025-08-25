@@ -21,6 +21,10 @@ import wishlistRoutes from "./src/routes/wishlistRoutes.js";
 import adminRoutes from "./src/routes/adminRoutes.js";
 import uploadRoutes from "./src/routes/uploadRoutes.js";
 import stripeRoutes from "./src/routes/stripeRoutes.js";
+import blogRoutes from "./src/routes/blogRoutes.js";
+import heroRoutes from "./src/routes/heroRoutes.js";
+import categoryRoutes from "./src/routes/categoryRoutes.js";
+import dealRoutes from "./src/routes/dealRoutes.js";
 
 dotenv.config();
 const config = getConfig();
@@ -102,8 +106,23 @@ app.use((req, res, next) => {
     if (req.body) req.body = mongoSanitize.sanitize(req.body);
     if (req.params) req.params = mongoSanitize.sanitize(req.params);
 
-    // ✅ avoid mutating req.query directly
-    if (req.query) req.query = { ...mongoSanitize.sanitize(req.query) };
+    // ✅ safer approach for req.query sanitization
+    if (req.query && Object.keys(req.query).length > 0) {
+      try {
+        const sanitizedQuery = mongoSanitize.sanitize(req.query);
+        Object.keys(req.query).forEach((key) => {
+          if (req.query[key] !== sanitizedQuery[key]) {
+            delete req.query[key];
+            if (sanitizedQuery[key] !== undefined) {
+              req.query[key] = sanitizedQuery[key];
+            }
+          }
+        });
+      } catch (queryErr) {
+        // If query sanitization fails, continue without it
+        console.warn("Query sanitization skipped:", queryErr.message);
+      }
+    }
   } catch (err) {
     console.error("Sanitization error:", err);
   }
@@ -227,10 +246,14 @@ app.get("/api/config", (req, res) => {
 // ---------- Routes ----------
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
+app.use("/api/categories", categoryRoutes);
+app.use("/api/deals", dealRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/wishlist", wishlistRoutes);
+app.use("/api/blogs", blogRoutes);
+app.use("/api/hero", heroRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/upload", uploadRoutes);
 app.use("/api/stripe", stripeRoutes);

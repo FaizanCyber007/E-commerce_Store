@@ -5,6 +5,7 @@ A professional, full-stack e-commerce application built with the MERN stack, fea
 ## 🚀 Features
 
 ### Customer Features
+
 - **Modern UI/UX**: Professional design with smooth animations and responsive layout
 - **Product Catalog**: Browse products with advanced filtering and search
 - **Shopping Cart**: Add, update, and remove items with real-time updates
@@ -16,6 +17,7 @@ A professional, full-stack e-commerce application built with the MERN stack, fea
 - **Contact Form**: Get in touch with customer support
 
 ### Admin Features
+
 - **Professional Dashboard**: Modern admin interface with analytics
 - **Product Management**: Add, edit, delete, and manage inventory
 - **Order Management**: Process orders and update delivery status
@@ -26,6 +28,7 @@ A professional, full-stack e-commerce application built with the MERN stack, fea
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **React 18**: Latest React with modern hooks and features
 - **Redux Toolkit**: State management with RTK Query
 - **React Router 6**: Client-side routing
@@ -35,6 +38,7 @@ A professional, full-stack e-commerce application built with the MERN stack, fea
 - **Vite**: Fast development and build tool
 
 ### Backend
+
 - **Node.js**: Server-side JavaScript runtime
 - **Express.js**: Web application framework
 - **MongoDB**: NoSQL database with Mongoose ODM
@@ -81,6 +85,7 @@ mern-ecommerce-pro-adv/
 ## 🚦 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 - MongoDB Atlas account (or local MongoDB)
@@ -88,23 +93,27 @@ mern-ecommerce-pro-adv/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd mern-ecommerce-pro-adv
    ```
 
 2. **Install root dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Install backend dependencies**
+
    ```bash
    cd backend
    npm install
    ```
 
 4. **Install frontend dependencies**
+
    ```bash
    cd ../frontend
    npm install
@@ -112,12 +121,14 @@ mern-ecommerce-pro-adv/
    ```
 
 5. **Environment Setup**
+
    ```bash
    cd backend
    cp .env.example .env
    ```
-   
+
    Update the `.env` file with your configuration:
+
    ```env
    # Database
    MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database
@@ -140,12 +151,14 @@ mern-ecommerce-pro-adv/
 ### Running the Application
 
 #### Development Mode (Recommended)
+
 ```bash
 # Run both frontend and backend concurrently
 npm run dev
 ```
 
 #### Production Mode
+
 ```bash
 # Build frontend
 npm run build
@@ -155,6 +168,7 @@ npm start
 ```
 
 #### Individual Services
+
 ```bash
 # Backend only
 npm run server
@@ -166,11 +180,13 @@ npm run client
 ## 📊 Database Setup
 
 ### Seed Database
+
 ```bash
 npm run seed
 ```
 
 This will populate your database with sample:
+
 - Products
 - Categories
 - Admin user
@@ -178,34 +194,37 @@ This will populate your database with sample:
 - Blog posts
 
 ### Admin Access
+
 Default admin credentials (after seeding):
+
 - **Email**: admin@example.com
 - **Password**: admin123
 
 ## 🎯 Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start both frontend and backend in development mode |
-| `npm run server` | Start backend server only |
-| `npm run client` | Start frontend development server only |
-| `npm start` | Start backend in production mode |
-| `npm run build` | Build frontend for production |
-| `npm run seed` | Seed database with sample data |
-| `npm run lint` | Run ESLint on frontend code |
-| `npm run preview` | Preview production build locally |
+| Script            | Description                                         |
+| ----------------- | --------------------------------------------------- |
+| `npm run dev`     | Start both frontend and backend in development mode |
+| `npm run server`  | Start backend server only                           |
+| `npm run client`  | Start frontend development server only              |
+| `npm start`       | Start backend in production mode                    |
+| `npm run build`   | Build frontend for production                       |
+| `npm run seed`    | Seed database with sample data                      |
+| `npm run lint`    | Run ESLint on frontend code                         |
+| `npm run preview` | Preview production build locally                    |
 
 ## 🔧 Configuration
 
 ### Frontend Configuration (frontend/vite.config.js)
+
 ```javascript
 export default defineConfig({
   plugins: [react()],
   server: {
     port: 5175,
     proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
+      "/api": {
+        target: "http://localhost:5000",
         changeOrigin: true,
       },
     },
@@ -214,22 +233,27 @@ export default defineConfig({
 ```
 
 ### Backend Configuration (backend/src/config/index.js)
+
 The backend uses environment variables for configuration. See `.env.example` for all available options.
 
 ## 🚀 Deployment
 
 ### Frontend Deployment (Vercel/Netlify)
+
 1. Build the frontend: `npm run build`
 2. Deploy the `frontend/dist` folder
 3. Configure environment variables in your hosting platform
 
 ### Backend Deployment (Railway/Render/Heroku)
+
 1. Deploy the `backend` folder
 2. Set environment variables
 3. Ensure MongoDB Atlas is accessible
 
 ### Full-Stack Deployment
+
 For platforms like Railway or Render that support monorepos:
+
 1. Configure build commands in the platform
 2. Set up environment variables
 3. Configure the root domain and subdomains

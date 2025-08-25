@@ -6,13 +6,19 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
+  getFeaturedProducts,
+  getCategories,
+  getBrands,
 } from "../controllers/productController.js";
 import { protect, admin } from "../middleware/authMiddleware.js"; // optional auth middlewares
 
 const router = express.Router();
 
-// Public
+// Public routes
 router.get("/", listProducts);
+router.get("/featured", getFeaturedProducts);
+router.get("/categories", getCategories);
+router.get("/brands", getBrands);
 router.get("/:slug", getProduct);
 
 // Protected (admin) - optional; leave as-is if your auth middleware exists
